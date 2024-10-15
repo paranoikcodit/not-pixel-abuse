@@ -1,0 +1,24 @@
+time_to_start = [1, 3]
+
+need_claim = true
+
+proxies_path = "./proxies.txt"
+sessions_path = "./sessions"
+
+api_id = 0
+api_hash = ""
+
+[paint]
+colors = ["#e46e6e","#ffd635","#7eed56","#00ccc0","#51e9f4","#94b3ff","#e4abff","#ff99aa","#ffb470","#ffffff","#be0039","#ff9600","#00cc78","#009eaa","#3690ea","#6a5cff","#b44ac0","#ff3881","#9c6926","#898d90","#6d001a","#bf4300","#00a368","#00756f","#2450a4","#493ac1","#811e9f","#a00357","#6d482f","#000000"]
+delay = 1000
+coords = [[1,2], [3, 4]]
+
+
+[tasks]
+needed = []
+channel_join = false
+
+# Soon...
+[boosts]
+minimal_amount_to_save = 1000
+exclude = ["energyLimit", "paintReward", "rechargingSpeed"]

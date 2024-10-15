@@ -1,0 +1,32 @@
+[package]
+name = "not-pixel-abuse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+chrono = "0.4.38"
+futures = "0.3.31"
+futures-util = "0.3.31"
+grammers-client = { version = "0.7.0", features = ["proxy"] }
+grammers-tl-types = "0.7.0"
+lazy_static = "1.5.0"
+log = "0.4.22"
+merkle_hash = "3.7.0"
+rand = "0.8.5"
+ratatui = { version = "0.28.1", features = ["all-widgets"], optional = true }
+reqwest = { version = "0.12.8", features = ["json", "socks", "native-tls-vendored"] }
+rustytele = { git = "https://github.com/paranoikcodit/rustytele", version = "0.1.0" }
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+sled = "0.34.7"
+tokio = { version = "1.40.0", features = ["full"] }
+toml = "0.8.19"
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tui-logger = { version = "0.13.2", features = ["tracing-support"], optional = true }
+urlencoding = "2.1.3"
+
+
+[features]
+tui = ["ratatui", "tui-logger"]
