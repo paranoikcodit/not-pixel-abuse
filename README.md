@@ -2,6 +2,7 @@
 
 ## Описание
 not-pixel-abuse — это приложение для абуза в игре not-pixel. 
+MADE BY: [gfhfyjbr](https://t.me/dolbaebskicode)
 
 ## Конфигурация
 
